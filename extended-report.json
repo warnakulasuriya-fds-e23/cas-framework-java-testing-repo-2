@@ -3,21 +3,21 @@
   "reported_vulnerabilities": [
     {
       "check_id": "java.sql.injection.string-concatenation",
-      "repo_url": "https://github.com/dummy-org/tiny-java-demo.git",
-      "commit_hash": "a1b2c3d4e5f67890",
-      "filepath": "/app/.repo_cache/tiny-java-demo/src/org/test/VulnerabilityDemo.java",
-      "start_line_number": 25,
-      "end_line_number": 26,
+      "repo_url": "https://github.com/warnakulasuriya-fds-e23/cas-framework-java-testing-repo-2.git",
+      "commit_hash": "765d327378a1b678a3c1a9d27b18a03f82ca60d6",
+      "filepath": "/app/.repo_cache/cas-framework-java-testing-repo-2/src/org/test/VulnerabilityDemo.java",
+      "start_line_number": 26,
+      "end_line_number": 27,
       "severity": "HIGH",
       "description": "Potential SQL injection via string concatenation in query construction."
     },
     {
       "check_id": "java.sql.injection.potential-risk",
-      "repo_url": "https://github.com/dummy-org/tiny-java-demo.git",
-      "commit_hash": "a1b2c3d4e5f67890",
-      "filepath": "/app/.repo_cache/tiny-java-demo/src/org/test/VulnerabilityDemo.java",
-      "start_line_number": 41,
-      "end_line_number": 42,
+      "repo_url": "https://github.com/warnakulasuriya-fds-e23/cas-framework-java-testing-repo-2.git",
+      "commit_hash": "765d327378a1b678a3c1a9d27b18a03f82ca60d6",
+      "filepath": "/app/.repo_cache/cas-framework-java-testing-repo-2/src/org/test/VulnerabilityDemo.java",
+      "start_line_number": 45,
+      "end_line_number": 46,
       "severity": "MEDIUM",
       "description": "Database query executed with external input. Ensure parameterization is used."
     }
